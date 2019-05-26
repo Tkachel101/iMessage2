@@ -48,7 +48,7 @@ public class MMServer {
 			inbox = store.getFolder("INBOX");
 			inbox.open(Folder.READ_ONLY);
 			sentDate = sentDate();
-			from = "41494322605@mms.att.net";
+			from = "@mms.att.net"; //Default phone number email
 			message = "";
 		} catch (Exception e) {
 
